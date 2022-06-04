@@ -1,0 +1,30 @@
+aside {
+  background: rgb(95, 95, 95);
+  width: 33.333333%;
+}
+
+.controls {
+  display: flex;
+
+}
+
+.controls button {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.25rem;
+  background: orangered;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+
+.controls .menu {
+  background: rgb(241, 57, 57);
+}
+
+.controls .user {
+  background: rgb(112, 57, 241);
+}
+
+.controls .search {
+  background: rgb(52, 218, 37);
+}
