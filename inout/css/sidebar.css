@@ -1,6 +1,8 @@
 aside {
   background: rgb(75, 85, 99);
   width: 33.333333%;
+
+  min-width: 230px;
 }
 
 .controls {
@@ -143,3 +145,63 @@ nav span {
 .flagged svg {
   background-color: rgb(var(--color-flagged));
 }
+
+
+.lists {
+  font-family: "Arial Rounded MT Bold", "Nunito", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1rem;
+
+  margin-top: 0.75rem;
+}
+
+.lists h3 {
+  opacity: 0.4;
+
+  padding-left: 0.375rem;
+  margin-bottom: 0.325rem;
+}
+
+/* .lists ol {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+} */
+
+.lists a {
+  display: flex;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.3rem;
+}
+
+.lists a:hover,
+.lists a:active{
+  background-color: rgb(var(--color-all-darker));
+}
+
+.lists svg {
+  width: 2.25rem;
+  height: 2.25rem;
+
+  border-radius: 2.25rem;
+  stroke: white;
+  fill: white;
+
+  padding: 0.5rem;
+  margin-right: 0.8rem;
+}
+
+.lists .reminders svg {
+  background-color: rgb(var(--list-color-reminder));
+}
+
+.lists .family svg {
+  background-color: rgb(var(--list-color-family));
+}
+
+.lists ol p {
+  display: flex;
+  justify-content: space-between;
+}
+

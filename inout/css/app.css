@@ -4,6 +4,8 @@
   --color-all: 156, 163, 175;
   --color-all-darker: 55, 65, 81;
   --color-flagged: 245, 158, 11;
+  --list-color-reminder: 239, 68, 68;
+  --list-color-family: 186, 72, 221;
 }
 
 html {
