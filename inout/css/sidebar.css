@@ -147,8 +147,8 @@ nav span {
 }
 
 
-.lists {
-  /* font-family: "Arial Rounded MT Bold", "Nunito", sans-serif; */
+.lists,
+.tags {
   font-size: 1rem;
   line-height: 1rem;
   font-weight: bold;
@@ -156,7 +156,8 @@ nav span {
   margin-top: 0.75rem;
 }
 
-.lists h3 {
+.lists h3,
+.tags h3 {
   opacity: 0.4;
 
   padding-left: 0.375rem;
@@ -173,11 +174,13 @@ nav span {
   align-items: center;
 
   border-radius: 0.5rem;
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0.375rem;
 }
 
 .lists a:hover,
-.lists a:active{
+.lists a:active,
+.tags a:hover,
+.tags a:active {
   background-color: rgb(var(--color-all-darker));
 }
 
@@ -211,5 +214,27 @@ nav span {
 
 .lists .family svg {
   background-color: rgb(var(--list-color-family));
+}
+
+.tags ol {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  font-weight: normal;
+
+  padding: 0.2rem 0.375rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  line-height: 1.75rem;
+}
+
+.tags a {
+  background-color: rgb(var(--tags-color));
+  border-radius: 0.375rem;
+
+  margin-right: 0.375rem;
+  padding: 0.175rem;
 }
 
