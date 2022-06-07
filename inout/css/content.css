@@ -1,6 +1,7 @@
 main {
   width: 66.666667%;
   border-left: 2px solid black;
+  background: rgb(247, 247, 247);
 }
 
 .add-new {
@@ -23,7 +24,7 @@ main {
 
 .add-new button:hover,
 .add-new button:active {
-  background: rgb(55, 65, 81);
+  background: rgb(var(--color-all));
 }
 
 /* TITLES */
@@ -58,7 +59,7 @@ h1.flagged {
 .todos p {
   padding: 0.625rem 0;
   border-bottom: 1px solid rgb(55, 65, 81);
-  flex-grow: 1rem;
+  /* flex-grow: 1rem; */
 }
 
 .todos svg {
@@ -66,14 +67,14 @@ h1.flagged {
 
   width: 2rem;
   height: 2rem;
-  stroke: rgb(28, 34, 43);
+  stroke: rgb(130, 134, 139);
   stroke-width: 1;
 
-  fill: rgb(55, 65, 81);
+  fill: rgb(227, 229, 232);
   cursor: pointer;
 }
 
 .todos svg:hover,
 .todos svg:active {
-  fill: rgb(251, 191, 35);
+  fill: rgb(var(--color-flagged));
 }
