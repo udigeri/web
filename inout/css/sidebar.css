@@ -227,14 +227,14 @@ nav span {
   flex-wrap: wrap;
   justify-content: flex-start;
 
-  line-height: 1.75rem;
+  line-height: 2rem;
 }
 
 .tags a {
   background-color: rgb(var(--tags-color));
   border-radius: 0.375rem;
 
-  margin-right: 0.375rem;
+  margin: 0.175rem;
   padding: 0.175rem;
 }
 
