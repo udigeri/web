@@ -20,31 +20,31 @@ aside {
 }
 
 /* CONTROLS */
-.controls .menu {
+.controls .close {
   background: rgb(241, 113, 113);
   margin-bottom: 1rem;
 }
 
-.controls .menu:hover,
-.controls .menu:active {
+.controls .close:hover,
+.controls .close:active {
   background: rgb(239, 68, 68);
 }
 
-.controls .user {
+.controls .minimize {
   background: rgb(252, 211, 77);
 }
 
-.controls .user:hover,
-.controls .user:active {
+.controls .minimize:hover,
+.controls .minimize:active {
   background: rgb(245, 158, 11);
 }
 
-.controls .search {
+.controls .maximize {
   background: rgb(52, 211, 153);
 }
 
-.controls .search:hover,
-.controls .search:active {
+.controls .maximize:hover,
+.controls .maximize:active {
   background: rgb(16, 185, 129);
 }
 
@@ -148,7 +148,9 @@ nav span {
 
 
 .lists,
-.tags {
+.tags,
+.tokens,
+.user {
   font-size: 1rem;
   line-height: 1rem;
   font-weight: bold;
@@ -157,7 +159,8 @@ nav span {
 }
 
 .lists h3,
-.tags h3 {
+.tags h3,
+.tokens h3 {
   opacity: 0.4;
 
   padding-left: 0.375rem;
@@ -236,5 +239,18 @@ nav span {
 
   margin: 0.175rem;
   padding: 0.175rem;
+}
+
+.user svg {
+  width: 2.25rem;
+  height: 2.25rem;
+
+  background-color: rgb(var(--color-all));
+  border-radius: 2.25rem;
+  stroke: white;
+  fill: white;
+
+  padding: 0.5rem;
+  margin-right: 0.8rem;
 }
 
