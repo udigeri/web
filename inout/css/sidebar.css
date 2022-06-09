@@ -76,6 +76,7 @@ input::placeholder {
 
 /* NAV */
 nav {
+  margin-top: 0.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
@@ -159,6 +160,7 @@ nav span {
   font-weight: bold;
 
   margin-top: 0.75rem;
+  display: none;
 }
 
 .lists h3 {
@@ -227,6 +229,7 @@ nav span {
   font-weight: bold;
 
   margin-top: 0.75rem;
+  display: none;
 }
 
 .tags h3 {
@@ -325,6 +328,39 @@ nav span {
 
 
 /* USER */
+.user {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: bold;
+
+  margin-top: 0.75rem;
+}
+
+.user a {
+  display: flex;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.375rem;
+}
+
+.user a:hover,
+.user a:active {
+  background-color: rgb(var(--color-all));
+}
+
+.user p {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.user p span{
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
 .user svg {
   width: 2.25rem;
   height: 2.25rem;
