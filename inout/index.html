@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/app.css" />
     <link rel="stylesheet" href="./css/sidebar.css" />
     <link rel="stylesheet" href="./css/content.css" />
+
+    <script type="text/javascript" src="./js/parking.js"></script>
+
   </head>
   <body>
     <div class="app">
@@ -93,7 +96,7 @@
           <h3>Parking lots</h3>
 
           <nav>
-            <a href="#" class="today">
+            <a href="#" class="today" onclick="show_p1();">
               <p>
                 <svg>
                   <path
@@ -107,7 +110,7 @@
               Telecash
             </a>
 
-            <a href="#" class="scheduled">
+            <a href="#" class="scheduled" onclick="show_p2();">
               <p>
                 <svg>
                   <path
@@ -119,7 +122,7 @@
               Web2Pay
             </a>
 
-            <a href="#" class="all">
+            <a href="#" class="all" onclick="show_p3();">
               <p>
                 <svg>
                   <path
@@ -131,7 +134,7 @@
               TrustCommerce
             </a>
 
-            <a href="#" class="flagged">
+            <a href="#" class="flagged" onclick="show_p4();">
               <p>
                 <svg>
                   <path
@@ -210,10 +213,10 @@
         </header>
 
         <div class="title">
-          <h1 class="today">P1 Telecash</h1>
-          <h1 class="scheduled">Scheduled</h1>
-          <h1 class="all">All</h1>
-          <h1 class="flagged">Flagged</h1>
+          <h1 class="today" id="p1">P1 Telecash</h1>
+          <h1 class="scheduled" id="p2">P2 Web2Pay</h1>
+          <h1 class="all" id="p3">P3 TrustCommerce</h1>
+          <h1 class="flagged" id="p4">P4 NMI</h1>
         </div>
 
         <ol class="todos">

@@ -37,7 +37,7 @@ h1 {
 
 h1.today {
   color: rgb(var(--color-today));
-  display: block;
+  display:none;
 }
 
 h1.scheduled {
